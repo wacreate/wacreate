@@ -1,32 +1,23 @@
 <?php 
 $title="Accueil";
-$object="Bienvenue sur WA Creator";
+$object="Développeur Web Freelance";
 
 include ('libs/wac_header.php');
 ?>
 
-
-<div class="main">
-	<div class="column">
+<section class="main">
+	<div class="colonne">
 		<h1 class="col-header">Présentation</h1>
 		<div class="col-body">
-			<p>Nous sommes un groupe de <i>freelance</i> proposant venant principalement de <i>Madagascar</i></p>
-			<p>Nous exercons dans le domaine du Web et de l'informatique en générale. Voyez <a href="wac_services.php">nos services ici!</a></p>
-		</div>
-	</div>
+			<span class="spcword">Hello World !</span> <br>
 
-	<div class="column">
-		<h1 class="col-header">Les technologies que nous utilisons</h1>
-		<div class="col-body">
-			<p>Nous utilisons, principalement</p>
-			<ul>
-				<li>PHP : pour les sites dynamiques et la sécurisation des programmes</li>
-				<li>HTML & CSS : mise en place des designs et des styles</li>
-				<li>JavaScript : pour divers traitement, animation ...</li>
-			</ul>
+			<p>Le challenge! J'aime le challenge. <br>
+			Vous avez un projet Web à faire? Vous avez besoin d'un site web? Besoin d'un nouveau module sur votre site web ? <br>
+			Je suis là pour vous servir et vous aider, n'hésitez plus! Engagez-vous avec un développeur jeune et dynamique.</p>
+
 		</div>
 	</div>
-</div>
+</section>
 
 <?php include('libs/wac_footer.php') ?>
 
