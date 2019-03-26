@@ -20,8 +20,3 @@ include ('libs/wac_header.php');
 </section>
 
 <?php include('libs/wac_footer.php') ?>
-
-
-
-
-
