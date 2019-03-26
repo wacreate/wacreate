@@ -1,3 +1,5 @@
+<!-- Pieds de page sans les logos des Réseaux sociaux -->
+
 <footer class="footer-fwd">
 	<div>
 		<ul id="footer-fw">
