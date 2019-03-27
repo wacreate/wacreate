@@ -16,7 +16,7 @@
 </head>
 <header>
 	<div class="pflimage">
-			<img src="img/profile.jpg">
+			<img height="50px" width="50px" src="img/profile.jpg">
 		</div>
 	<div class="landing-page">
 		<div class="page-content">
