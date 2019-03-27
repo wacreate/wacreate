@@ -15,6 +15,7 @@
 }
 .navbar-fwd li{
 	display: inline-block; 
+	float:right;
 	color: #000e32;
 	padding: 20px; 
 }
