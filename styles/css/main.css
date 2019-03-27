@@ -1,0 +1,155 @@
+*{
+	margin:0; 
+	padding: 0; 
+	font-family: "montserrat", sans-serif; 
+	list-style: none; 
+	text-decoration: none;
+}
+
+.navbar-fwd{
+	position: relative; 
+	display: block; 
+	background:#e94002; 
+	width: 100%; 
+	height: auto; 
+}
+.navbar-fwd li{
+	display: inline-block; 
+	color: #000e32;
+	padding: 20px; 
+}
+
+.navbar-fwd a{
+	color: #fff;
+	left:50%; 
+	transform: translate(-50%, -50%);
+}
+.navbar-fwd a:hover{
+	color: #262626;
+}
+.navbar-fwd a:before{
+	content: ""; 
+	position: absolute;
+	width: 5px; 
+	height: 100%;
+	background:#000e32; 
+	left: 0; top:0; 
+	transition: 0.3; 
+	opacity: 0;  
+}
+.navbar-fwd a:hover:before{
+	opacity: 1;
+}
+
+
+.footer-fwd{
+	position: relative; 
+	float:bottom; 
+	display: inline-block; 
+	background:#e94002; 
+	width: 100%; 
+	height: auto;
+}
+.footer-fwd li{
+	display: inline-block; 
+	color: #000e32;
+	padding-left: 45px; 
+	padding-right: 45px; 
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+.footer-fwd a{
+	color: #fff;
+	text-align: center; 
+}
+.footer-fwd a:hover{
+	color: #d3d3d3;
+}
+
+.landing-page{
+	width: 100%; 
+	height: 100vh; 
+	background-color: #e94002; 
+	position: relative; 
+	overflow: hidden;
+}
+.landing-page::after{
+	content: ""; 
+	position: absolute; 
+	left: 0; top: 0; 
+	width: 100%; height: 100%;
+	background: url(../../img/fonts/bg2.jpg) no-repeat; 
+	background-size: cover; 
+	opacity: .3;
+	animation: anim 25s linear infinite;
+}
+
+@keyframes anim {
+	50%{
+		transform: scale(2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+.page-content{
+	position: absolute; 
+	left: 50%; top: 50%; 
+	transform: translate(-50%, -50%); 
+	z-index: 2;
+	width: 100%; 
+	max-width: 800px; 
+	text-align: center; 
+	padding: 0 40px; 
+	box-sizing: border-box;
+}
+.page-content h1{
+	color: #000e32; 
+	text-transform: uppercase; 
+	font-size: 50px; 
+	font-weight: 900; 
+	margin-bottom: 20px;
+}
+.page-content p{
+	color: #fff; 
+	margin-bottom: 20px;
+}
+.page-content a{
+	display: inline-block;
+	color: #000e32;
+	text-decoration:none;
+	border:2px solid #000e32; border-radius: 8px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	transition: 0.4s linear;   
+}
+.page-content a:hover{
+	color: #fff; 
+	background: #000e32; 
+	padding: 40px; 
+	font-size: 50px; 
+	border-radius: 40px;
+}
+
+.main{
+	display: flex;
+}
+
+.colonne{
+	position: relative;
+	margin-left: 10px; margin-right: 10px;
+	padding: 10px;
+	background-color: #ffffff; 
+}
+
+.col-header{
+	float: center;
+	color: #000e32;
+	margin-bottom: 6px; margin-top: 6px;
+}
+
+.col-body{
+	width: 100%;
+	margin-bottom: 6px; margin-top: 6px;
+}
