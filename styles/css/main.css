@@ -14,8 +14,8 @@
 	height: auto; 
 }
 .navbar-fwd li{
-	display: inline-block; 
-	float:right;
+	display: flex; 
+	flex-direction: column-reverse;
 	color: #000e32;
 	padding: 20px; 
 }
