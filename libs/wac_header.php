@@ -15,10 +15,10 @@
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 <header>
-	<div class="landing-page">
-		<div class="pflimage">
+	<div class="pflimage">
 			<img src="img/profile.jpg">
 		</div>
+	<div class="landing-page">
 		<div class="page-content">
 			<h1><?php echo $object; ?></h1>
 			<p>
