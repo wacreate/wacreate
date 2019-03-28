@@ -22,9 +22,10 @@
 <header>
 	<nav class="navbar-fwd">
 		<ul>
-			<li>A</li>
-			<li>B</li>
-			<li>C</li>
+			<li><a href="index.php">We Are Creator</a></span></li>
+			<li><a href="../../wac_services.php">Nos services</a></li>
+			<li><a href="../../wac_works.php">Nos travaux</a></li>
+			<li><a href="../../wac_contact.php">Contactez-nous</a></li>
 		</ul>
 	</nav>
 </header>
@@ -37,7 +38,7 @@
 
 		<span class="my-5"></span>
 
-		<a data-fancybox-trigger="preview" href="javascript: $([#mosaic]).style(display:all) ;">
+		<a id="toogler" data-fancybox-trigger="preview" href="javascript:;">
 			Visionner
 		</a>
 
