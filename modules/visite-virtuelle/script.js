@@ -1,3 +1,3 @@
 document.ready(function({
-	$('data_fancybox').fancy
+	$(['#toggler']).onclick("style: display:all");
 }))
