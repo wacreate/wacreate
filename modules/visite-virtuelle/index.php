@@ -92,11 +92,14 @@
 					Your browser doesn't support HTML5 video tag.
 		</video>
 	</div>
-<iframe style="display: none;" id="visite-virtuelle" src="https://www.google.com/maps/embed?pb=!4v1554097906172!6m8!1m7!1sCAoSLEFGMVFpcE5SUXAtd2R3Vi1hMzlvWlB2M3otbi1oSWplalhzdnJ3azVFWDU3!2m2!1d48.81645181991611!2d2.383636705621711!3f304.5!4f2.933869999999999!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	<div class="block">
-				<h2>Visite virtuelle</h2>
-				
 
+<!-- Iframe du visite virtuelle de google street view - La Lavoir - Pour démo -->
+<iframe style="display: none;" id="visite-virtuelle" src="https://www.google.com/maps/embed?pb=!4v1554097906172!6m8!1m7!1sCAoSLEFGMVFpcE5SUXAtd2R3Vi1hMzlvWlB2M3otbi1oSWplalhzdnJ3azVFWDU3!2m2!1d48.81645181991611!2d2.383636705621711!3f304.5!4f2.933869999999999!5f0.7820865974627469" width="1200" height="850" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+	<div class="block">
+			<h2>Visite virtuelle</h2>
+				
 			<a data-fancybox data-src="#visite-virtuelle" href="javascript:;">
 				Visite virtuelle
 			</a>
